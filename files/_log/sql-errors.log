@@ -1,0 +1,28 @@
+[2023-04-15 16:18:17] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_configs`
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysql.php:889                                
+  src\DBmysql.php:1191                               DBmysql->listFields()
+  src\DBmysql.php:298                                DBmysql->fieldExists()
+  src\DBmysql.php:275                                DBmysql->guessTimezone()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"@MARKETING-EDITO"} 
+[2023-04-15 16:18:17] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 370
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_configs`
+  Error: MySQL server has gone away
+  Backtrace :
+  src\DBmysqlIterator.php:112                        
+  src\DBmysql.php:1056                               DBmysqlIterator->execute()
+  src\Config.php:2837                                DBmysql->request()
+  inc\config.php:120                                 Config::loadLegacyConfiguration()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  {"user":"@MARKETING-EDITO","mem_usage":"0.012\", 1.79Mio)"} 

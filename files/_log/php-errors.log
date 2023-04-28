@@ -1,0 +1,180 @@
+[2023-03-04 22:53:00] glpiphplog.WARNING: Test logger  
+[2023-03-04 22:53:05] glpiphplog.WARNING: Test logger  
+[2023-03-04 22:53:27] glpiphplog.WARNING: Test logger  
+[2023-03-05 03:46:20] glpiphplog.WARNING: Test logger  
+[2023-03-05 03:46:30] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\xampp\htdocs\glpi\src\Session.php at line 694
+  Backtrace :
+  src\Session.php:694                                trigger_error()
+  inc\config.php:69                                  Session::loadLanguage()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-03-05 03:46:39] glpiphplog.WARNING: Test logger  
+[2023-03-05 03:51:31] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\xampp\htdocs\glpi\src\Session.php at line 694
+  Backtrace :
+  src\Session.php:694                                trigger_error()
+  inc\config.php:69                                  Session::loadLanguage()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-03-05 03:51:36] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in C:\xampp\htdocs\glpi\src\Session.php at line 694
+  Backtrace :
+  src\Session.php:694                                trigger_error()
+  inc\config.php:69                                  Session::loadLanguage()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-03-05 03:52:05] glpiphplog.WARNING: Test logger  
+[2023-03-05 04:30:27] glpiphplog.WARNING: Test logger  
+[2023-03-05 18:26:55] glpiphplog.WARNING: Test logger  
+[2023-03-05 18:44:35] glpiphplog.WARNING: Test logger  
+[2023-03-05 18:48:38] glpiphplog.WARNING: Test logger  
+[2023-03-05 18:49:12] glpiphplog.WARNING: Test logger  
+[2023-03-05 18:49:32] glpiphplog.WARNING: Test logger  
+[2023-03-21 16:12:02] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-03-21 16:12:06] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-03-21 16:13:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-03-21 16:13:41] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\locale.php:41                                include()
+  
+[2023-04-12 18:53:33] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\getDropdownValue.php:42                       include()
+  
+[2023-04-12 18:53:43] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\state.form.php:36                            include()
+  
+[2023-04-12 18:59:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\state.php:36                                 include()
+  
+[2023-04-12 18:59:41] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\state.php:36                                 include()
+  
+[2023-04-12 18:59:45] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  ajax\getDropdownValue.php:42                       include()
+  
+[2023-04-12 18:59:49] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\state.form.php:36                            include()
+  
+[2023-04-12 19:01:07] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  front\computer.form.php:38                         include()
+  
+[2023-04-15 16:18:59] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:412                           DBmysql->__construct()
+  src\DBConnection.php:501                           DBConnection::switchToMaster()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-04-15 16:18:59] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "glpilanguage" in C:\xampp\htdocs\glpi\src\Html.php at line 1168
+  Backtrace :
+  src\Html.php:2088                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-04-15 16:18:59] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "" in C:\xampp\htdocs\glpi\src\Html.php at line 1168
+  Backtrace :
+  src\Html.php:2088                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
+[2023-04-15 16:18:59] glpiphplog.WARNING:   *** PHP Warning (2): Trying to access array offset on value of type null in C:\xampp\htdocs\glpi\src\Html.php at line 1168
+  Backtrace :
+  src\Html.php:2088                                  Html::includeHeader()
+  src\DBConnection.php:600                           Html::nullHeader()
+  src\DBConnection.php:536                           DBConnection::displayMySQLError()
+  inc\config.php:114                                 DBConnection::establishDBConnection()
+  inc\includes.php:53                                include_once()
+  index.php:89                                       include()
+  
